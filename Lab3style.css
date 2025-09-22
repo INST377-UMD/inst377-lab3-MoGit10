@@ -1,0 +1,115 @@
+body {
+    background-color: bisque;
+    font-family:'Times New Roman', Times, serif 
+}
+
+
+
+.bar { 
+    text-align: center;
+    color: brown;
+    background-color: rgb(188, 164, 148);
+    padding: 5px;
+    margin: 8px 0; 
+    font-family: cursive;
+    clear: both;
+}
+
+#main-nav {
+    background-color: azure;
+    text-align: left;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#main-nav li:hover {
+    background-color: rgb(20, 74, 21);
+    color: rgb(19, 19, 19);
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    background-color: red;
+    float: left;
+    position: absolute;
+    padding: 0;
+}
+
+.content-box {
+    background-color: rgb(202, 205, 190);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.main-container { 
+    border: 2px solid black;
+    width: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start; 
+    gap: 16px;               
+    box-sizing: border-box;
+}
+
+
+.content-area {        
+    width: 70%;        
+    padding: 10px;     
+    margin: 5px;       
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#contact {             
+    text-align: left;
+    background-color: aqua;
+    width: 25%;        
+    min-width: 254px;
+    padding: 10px;     
+    margin: 5px;       
+    border: solid black;
+    box-sizing: border-box;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+
+#contact:hover {
+  background-color: #525584;
+}
+
+#firstName {
+  width: 180px;
+  
+}
+#firstName:focus {
+  width: 262;
+}
